@@ -12,7 +12,9 @@ elForm.addEventListener('submit', function(evt){
     var senderOption = elWeightPost.value;
     var returnOption = elWeightGet.value;
 
-    if(senderOption === 'kg'){
+    if(senderOption === 'gr'){
+        calculated *=1
+    } else if(senderOption === 'kg'){
         calculated *= 1000;
     } else if(senderOption === 'ir_dr'){
         calculated *=3.17;
@@ -57,7 +59,9 @@ elForm.addEventListener('submit', function(evt){
     }
 
 
-    if(returnOption === 'kg'){
+    if (returnOption === 'gr'){
+        calculated /= 1;
+    } else if(returnOption === 'kg'){
         calculated /= 1000;
     } else if(returnOption === 'ir_dr'){
         calculated /=3.17;
