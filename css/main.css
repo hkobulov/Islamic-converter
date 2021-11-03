@@ -1,8 +1,12 @@
+body {
+    
+    background-color: rgb(132, 236, 132);
+}
+
 .container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 25px 10px;
-    background-color: rgb(132, 236, 132);
 }
 
 .main-heading {
@@ -16,6 +20,7 @@
 
 .weight-form {
     max-width: 400px;
+    margin: 0 auto;
 }
 
 .weight-area-one {
@@ -57,6 +62,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .weight-show {
@@ -86,4 +92,17 @@
 .contact-link {
     text-decoration: none;
     color: rgb(255, 0, 0);
+}
+
+.end-text {
+    margin: 0 auto;
+}
+
+.author {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin: 0;
 }
