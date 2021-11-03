@@ -1,0 +1,89 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 25px 10px;
+    background-color: rgb(132, 236, 132);
+}
+
+.main-heading {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(26, 3, 56);
+}
+
+.weight-form {
+    max-width: 400px;
+}
+
+.weight-area-one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.weight-input {
+    min-width: 150px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgb(0, 164, 170);
+    border-radius: 8px;
+}
+
+.weight-post {
+    width: 150px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgb(0, 164, 170);
+    border-radius: 8px;
+    color: rgb(26, 3, 56);
+}
+
+.weight-btn {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: rgb(150, 91, 91);
+    border: 1px solid rgb(0, 164, 170);
+    border-radius: 5px;
+}
+
+.weight-area-two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.weight-show {
+    min-width: 150px;
+    height: 18px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgb(0, 164, 170);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.weight-get {
+    width: 150px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgb(0, 164, 170);
+    border-radius: 8px;
+    color: rgb(26, 3, 56);
+}
+
+.author-link {
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
