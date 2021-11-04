@@ -4,6 +4,7 @@ var elWeightPost = document.querySelector('.weight-post');
 var elWeightGet = document.querySelector('.weight-get');
 var elWeightShow = document.querySelector('.weight-show');
 
+
 elForm.addEventListener('submit', function(evt){
     evt.preventDefault();
 
@@ -11,6 +12,11 @@ elForm.addEventListener('submit', function(evt){
     var calculated = inputValue;
     var senderOption = elWeightPost.value;
     var returnOption = elWeightGet.value;
+
+    if(inputValue === 0 || inputValue < 0){
+        elWeightInput.value = null
+        return
+    }
 
     if(senderOption === 'gr'){
         calculated *=1
@@ -59,7 +65,7 @@ elForm.addEventListener('submit', function(evt){
     }
 
 
-    if (returnOption === 'gr'){
+     if (returnOption === 'gr'){
         calculated /= 1;
     } else if(returnOption === 'kg'){
         calculated /= 1000;
@@ -107,3 +113,7 @@ elForm.addEventListener('submit', function(evt){
 
     elWeightShow.textContent = calculated.toFixed(3);
 })
+
+
+var eee = 1000 / 1566720;
+console.log(eee)
